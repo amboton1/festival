@@ -3,50 +3,44 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      
+      <nav className={styles.navbar}>
+        <div className={`${styles['navbar-container']} ${styles.container}`}>
+            <input type="checkbox" name="" id="" />
+            <div className={styles['hamburger-lines']}>
+                <span className={`${styles.line} ${styles.line1}`}></span>
+                <span className={`${styles.line} ${styles.line2}`}></span>
+                <span className={`${styles.line} ${styles.line3}`}></span>
+            </div>
+            <ul className={styles['menu-items']}>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+            <h1 className={styles.logo}>Navbar</h1>
         </div>
+      </nav>
+
+      <main>
+        <section id="home">
+            <img className={styles.image} src="https://via.placeholder.com/500" alt="Home" />
+        </section>
+        <section id="about">
+            <img className={styles.image} src="https://via.placeholder.com/600" alt="About" />
+        </section>
+        <section id="category">
+            <img className={styles.image} src="https://via.placeholder.com/700" alt="Category" />
+        </section>
+        <section id="menu">
+            <img className={styles.image} src="https://via.placeholder.com/800" alt="Menu" />
+        </section>
       </main>
 
       <footer>
@@ -56,7 +50,6 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
         </a>
       </footer>
 
