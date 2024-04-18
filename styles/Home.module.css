@@ -1,16 +1,40 @@
 
-
-.html{
-    font-size: 62.5%;
-}
-
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines{
     display: none;
 }
 
+.content {
+    width: 100%;
+}
+
 .image {
-  margin-bottom: 50px;
+  width: inherit;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    justify-content: center;
+}
+
+.animated {
+    opacity: 1;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e4e4e4;
+    text-align: center;
+    color: #646464;
+    font-size: 22px;
+    border-radius: 100%;
+    line-height: 40px;
 }
 
 .container{
