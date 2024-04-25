@@ -258,6 +258,7 @@
     display: flex;
     justify-content: center;
     font-weight: 800;
+    font-size: 18px;
 }
 
 .contentImages{
@@ -297,6 +298,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 18px;
 }
 
 .locationWrapper{
