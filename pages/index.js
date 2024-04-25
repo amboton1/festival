@@ -162,8 +162,8 @@ export default function Home() {
                 <span className={styles.locationTitle}>LOKACIJA</span>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d577.668071483285!2d15.977497599722124!3d45.799015800227714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d65f149a913d%3A0xd1821dba68f18cba!2sRoute%2066%20Zagreb!5e0!3m2!1sen!2shr!4v1714025834166!5m2!1sen!2shr"
-                  width="600"
-                  height="350"
+                  width="400"
+                  height="300"
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
