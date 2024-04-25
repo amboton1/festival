@@ -170,7 +170,7 @@ export default function Home() {
                 ></iframe>
               </div>
             </div>
-            <div className={styles.locationFooter}>#priroda-za-sve-2-24</div>
+            <div className={styles.locationFooter}>#priroda-za-sve-2024</div>
           </div>
         </section>
       </main>
