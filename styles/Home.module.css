@@ -52,11 +52,13 @@
     color: #000;
     opacity: 0.85;
     z-index: 100;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 .navbar-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     height: 64px;
     align-items: center;
 }
@@ -203,6 +205,10 @@
     }
 }
 
+.main{
+    padding: 0 !important;
+}
+
 .logoImage{
     width: 136px;
 }
@@ -270,7 +276,7 @@
     color:  #df5654;
     font-weight: 700;
     align-items: center;
-    padding: 120px 0;
+    padding-top: 120px;
     flex-wrap: wrap;
 }
 
@@ -298,4 +304,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.gandhi{
+    color: #df5654;
+}
+
+.contentGreen{
+    color: #169d53;
+}
+
+.locationTitle{
+    font-weight: 700;
+    padding-bottom: 32px;
+    font-size: 19px;
+}
+
+.locationFooter{
+    padding:60px 0 ;
+    background-color: #00f48e;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    font-weight: 700;
 }
