@@ -139,7 +139,7 @@ export default function Home() {
                   <li className={styles.animated}>
                     <a
                       className={styles.link}
-                      href="https://www.instagram.com/welcome_spring_festival/"
+                      href="https://www.instagram.com/prirodazasve/?hl=en"
                       target="_new"
                     >
                       <svg height="1em" viewBox="0 0 448 512">
